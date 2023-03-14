@@ -1,5 +1,5 @@
-import correo from "../../../public/Imágenes/header1.png";
-import telefono from "../../../public/Imágenes/header2.png";
+import correo from "../../../public/Imagenes/header1.png";
+import telefono from "../../../public/Imagenes/header2.png";
 
 export default function Navbar() {
   return (

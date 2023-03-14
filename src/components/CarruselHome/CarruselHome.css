@@ -1,0 +1,21 @@
+.contenedor {
+    position: relative;
+    /* Asegura que los botones se posicionen correctamente en relación a este elemento */
+  }
+  
+  .botones {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    margin-top: -50px;
+    /* La mitad de la altura de los botones, para centrarlos verticalmente */
+  }
+  
+  .botones button {
+    display: block;
+    margin-bottom: 10px;
+    /* Agrega un espacio entre los botones */
+  }
+  .facebook{
+    background-color: 3b5998!important
+  }

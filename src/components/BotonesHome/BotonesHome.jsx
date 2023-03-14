@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import "./BotonesHome.css";
 
 export function BotonesHome({ texto, clase, icono }) {
   return (
-    <div className={`${clase}`}>
+    <Link
+      className={`${clase}  p-3 m-0 border-0 text-decoration-none text-white custom-rounded `}
+    >
       <img src={icono} />
-      <Link className={`${clase} border-0 text-decoration-none text-white`}>
-        {texto}
-      </Link>
-    </div>
+      {texto}
+    </Link>
   );
 }

@@ -7,6 +7,15 @@
 .fondo-azul{
   background-color: var(--color-azul);
 }
+.fondo-amarillo{
+  background-color: var(--color-amarillo);
+}
+.fondo-crema{
+  background-color: var(--color-crema);
+}
+.fondo-rosa{
+  background-color: var(--color-rosa);
+}
 body, p, h1, h2, h3, h4, h5, div{
   font-family: 'Lexend Deca', sans-serif;
 }
