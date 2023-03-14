@@ -1,6 +1,8 @@
 import logo from "../../../public/Imagenes/logo.svg";
 import { BotonesHome } from "../../components/BotonesHome/BotonesHome";
 import { CarruselHome } from "../../components/CarruselHome/CarruselHome";
+import { Descripcion } from "../../components/Descripcion/Descripcion";
+import { Caracteristicas } from "../../components/Caracteristicas/Caracteristicas";
 import inicio from "../../../public/Imagenes/menu-1.png";
 import presentacion from "../../../public/Imagenes/menu-2.png";
 import actividades from "../../../public/Imagenes/menu-3.png";
@@ -17,7 +19,7 @@ export function Home() {
       <div className="d-flex justify-content-center m-4">
         <img className="col-2" src={logo} />
       </div>
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center ">
         <div className="botonHomeHover">
           <BotonesHome clase="fondo-azul" texto="Inicio" icono={inicio} />
         </div>
@@ -56,8 +58,9 @@ export function Home() {
           />
         </div>
       </div>
-
       <CarruselHome />
+      <Descripcion />
+      <Caracteristicas />
     </>
   );
 }

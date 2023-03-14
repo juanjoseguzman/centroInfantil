@@ -19,3 +19,6 @@
 body, p, h1, h2, h3, h4, h5, div{
   font-family: 'Lexend Deca', sans-serif;
 }
+.texto-marron{
+  color: var(--color-marron)
+}

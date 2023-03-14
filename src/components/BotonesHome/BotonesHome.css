@@ -1,8 +1,13 @@
 .custom-rounded {
-    border-top-left-radius: 2em ;
-    border-top-right-radius: 2em ;
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50% ;
   }
-  
-Link:hover{
-    background-color: rgba(0, 0, 0, 0.2);
+
+.efectoHover::before{
+  background-color: rgba(0, 0, 0, 0.2); /* Fondo semi-transparente */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.efectoHover:hover::before {
+  opacity: 1;
 }
