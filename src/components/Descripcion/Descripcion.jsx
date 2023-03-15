@@ -7,13 +7,13 @@ export function Descripcion() {
         </h4>
       </div>
       <div className="col-6 text-center text-secondary">
-        <small>
+        <p>
           Somos el Centro Infantil María Inmaculada, un centro bilingüe,
           educativo y asistencial, con amplia experiencia en el sector, con
           personal cualificado y en continua formación. Trabajamos en proyectos
           educativos en relación con la naturaleza, empleamos juegos Montessori
           y estamos localizados en Granada.
-        </small>
+        </p>
       </div>
     </div>
   );

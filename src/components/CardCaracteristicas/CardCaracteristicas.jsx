@@ -8,7 +8,7 @@ export function CardCaracteristicas({ icono, titulo, texto }) {
         <h4 className="texto-marron">{titulo}</h4>
       </div>
       <div className="text-secondary mb-3">
-        <small>{texto}</small>
+        <p>{texto}</p>
       </div>
     </div>
   );
