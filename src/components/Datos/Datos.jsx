@@ -7,17 +7,11 @@ export function Datos() {
       <img className="img-fluid" src={bg2} alt="fondo" />
       <div className="container">
         <div className="contenedor">
-          <div className="texto d-flex gap-5">
-            <img className="col-1" src={ico4} />
+          <div className="col-1">
+            <img className="texto" src={ico4} />
           </div>
           <div>
-            <img className="col-1" src={ico4} />
-          </div>
-          <div>
-            <img className="col-1" src={ico4} />
-          </div>
-          <div>
-            <img className="col-1" src={ico4} />
+            <img className="texto" src={ico4} />
           </div>
         </div>
       </div>

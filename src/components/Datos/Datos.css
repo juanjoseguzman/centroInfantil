@@ -2,12 +2,12 @@
     position: relative;
   }
   
-  .contenedor img {
-    width: auto;
-    height: 100%;
+img {
+    width: 10%;
+    height: auto;
   }
   
-  .contenedor .texto {
+.texto {
     position: absolute;
     top: 0%;
     left: 0%;
@@ -17,9 +17,9 @@
   
   /* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
   @media (max-width: 768px) {
-    .contenedor .texto {
+ .texto {
       left: 50%;
-      max-width: 100%;
+      max-width: 10%;
       font-size: 1.5vw; /* Tamaño de fuente en vw */
     }
   }
@@ -28,9 +28,9 @@
     .contenedor .texto {
       top: 50%;
       left: 50%;
-      max-width: 100%;
+      max-width: 10%;
       font-size: 1.5vw; /* Tamaño de fuente en vw */
-  
+        height: 10%;
       
     }
   }
