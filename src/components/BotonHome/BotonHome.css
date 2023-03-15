@@ -1,13 +1,13 @@
 .custom-rounded {
     border-top-left-radius: 2rem ;
     border-top-right-radius: 2rem ;
+    position: relative;
+    
   }
-
-.efectoHover::before{
-  background-color: rgba(0, 0, 0, 0.2); /* Fondo semi-transparente */
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
-.efectoHover:hover::before {
-  opacity: 1;
-}
+  .btn-rebote:hover {
+    transform: translateY(-8px);
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.5;
+   
+    
+  }
