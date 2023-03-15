@@ -1,0 +1,16 @@
+.texto-carousel{
+position: absolute;
+top: 28%;
+left: 34%;
+color: var(--color-crema);
+font-size: 64px;
+font-weight: 600;
+}
+.texto-carousel2{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: var(--color-crema);
+    font-size: 64px;
+    font-weight: 600;
+    }
