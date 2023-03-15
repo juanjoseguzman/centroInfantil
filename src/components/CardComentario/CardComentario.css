@@ -1,0 +1,6 @@
+@import "../../constantes/colores.css";
+
+.borde{
+    border: 2px solid var(--color-celeste);
+    box-sizing: border-box;
+}

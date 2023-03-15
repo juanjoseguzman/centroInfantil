@@ -22,3 +22,6 @@ body, p, h1, h2, h3, h4, h5, div{
 .texto-marron{
   color: var(--color-marron)
 }
+.texto-verde{
+  color: var(--color-verde)
+}
