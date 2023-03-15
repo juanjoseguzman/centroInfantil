@@ -6,7 +6,7 @@ export function Download() {
     <div className="contenedor">
       <img className="img-fluid z-n1" src={bg1} alt="descarga" />
       <div className="texto flex-column ms-4">
-        <h4 className="texto-marron">Descargue nuestra App para el movil</h4>
+        <h2 className="texto-marron"><b>Descargue nuestra App para el movil</b></h2>
         <p className="text-secondary">
           Consulte toda la información diaria sobre sus hijos : biberones,
           comidas, descanso, deposiciones, etc. en nuestra aplicación gratuita.

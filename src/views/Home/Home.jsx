@@ -8,6 +8,7 @@ import { BotonesHome } from "../../components/BotonesHome/BotonesHome";
 import { Comentarios } from "../../components/Comentarios/Comentarios";
 import { Datos } from "../../components/Datos/Datos";
 import Docente from "../../components/Docente/Docente";
+import Instalaciones from "../../components/Instalaciones/Instalaciones";
 
 export function Home() {
   return (
@@ -23,6 +24,7 @@ export function Home() {
       <Comentarios />
       <Datos />
       <Docente/>
+      <Instalaciones/>
     </>
   );
 }

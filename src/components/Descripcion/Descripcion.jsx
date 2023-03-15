@@ -2,9 +2,9 @@ export function Descripcion() {
   return (
     <div className="mt-5 d-flex align-items-center flex-column">
       <div>
-        <h4 className="texto-marron">
+        <h2 className="texto-marron">
           <b>Centro Infantil María Inmaculada</b>
-        </h4>
+        </h2>
       </div>
       <div className="col-6 text-center text-secondary">
         <p>

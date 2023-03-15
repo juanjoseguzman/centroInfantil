@@ -7,26 +7,26 @@ import "./Datos.css"
 export function Datos() {
   return (
     <div className="mt-5 pt-5">
-      <img className="img-fluid" src={bg2} alt="fondo" />
+      <img className="img-fluid " src={bg2} alt="fondo" />
       <div className="container">
         <div className="contenedor">
         
           <div className="col-1">
             
             <img className="img-container "  src={ico4} />
-            <h4 className="textoIcon texto-marron text-center" >Innovación</h4 >
+            <h4 className="textoIcon texto-marron text-center pb-5" >Innovación</h4 >
           </div>
           <div className="col-1">
             <img className="img-container2"  src={ico5} />
-            <h4 className="textoIcon2 texto-marron text-center">Horarios flexibles</h4 >
+            <h4 className="textoIcon2 texto-marron text-center pb-5">Horarios flexibles</h4 >
           </div>
           <div className="">
             <img className="img-container3"  src={ico6} />
-            <h4 className="textoIcon3 texto-marron text-center ">Dieta saludable</h4>
+            <h4 className="textoIcon3 texto-marron text-center pb-5">Dieta saludable</h4>
           </div>
           <div className="col-1">
             <img className="img-container4"  src={ico7} />
-            <h4 className="textoIcon4 texto-marron text-center">Confianza</h4 >
+            <h4 className="textoIcon4 texto-marron text-center pb-5">Confianza</h4 >
           </div>
          <div>
          
