@@ -2,16 +2,21 @@
     position: relative;
   }
   
-img {
-    width: 10%;
-    height: auto;
-  }
+
   
-.texto {
+.contenedor .texto {
     position: absolute;
-    top: 0%;
-    left: 0%;
+    top: 50%;
+    left: 60%;
     transform: translate(-30%, -30%);
+   
+  }
+  .contenedor .img-container {
+    position: absolute;
+    top: -128px;
+    left: 15%;
+    transform: translate(-30%, -30%);
+    width: 10%;
    
   }
   
@@ -19,7 +24,7 @@ img {
   @media (max-width: 768px) {
  .texto {
       left: 50%;
-      max-width: 10%;
+      max-width: 100%;
       font-size: 1.5vw; /* Tamaño de fuente en vw */
     }
   }
