@@ -1,4 +1,3 @@
-import logo from "../../../public/Imagenes/logo.svg";
 import { CarruselHome } from "../../components/CarruselHome/CarruselHome";
 import { Descripcion } from "../../components/Descripcion/Descripcion";
 import { Caracteristicas } from "../../components/Caracteristicas/Caracteristicas";
@@ -9,13 +8,12 @@ import { Comentarios } from "../../components/Comentarios/Comentarios";
 import { Datos } from "../../components/Datos/Datos";
 import Docente from "../../components/Docente/Docente";
 import Instalaciones from "../../components/Instalaciones/Instalaciones";
+import { Logo } from "../../components/Logo/Logo";
 
 export function Home() {
   return (
     <>
-      <div className="d-flex justify-content-center m-4">
-        <img className="col-2" src={logo} />
-      </div>
+      <Logo />
       <BotonesHome />
       <CarruselHome />
       <Descripcion />
@@ -23,8 +21,8 @@ export function Home() {
       <Download />
       <Comentarios />
       <Datos />
-      <Docente/>
-      <Instalaciones/>
+      <Docente />
+      <Instalaciones />
     </>
   );
 }
