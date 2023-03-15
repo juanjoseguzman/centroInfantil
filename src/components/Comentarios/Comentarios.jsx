@@ -18,11 +18,22 @@ export function Comentarios() {
       nombre: "Jose María Bautista Aguiñar",
     },
   ];
+
   return (
-    <div>
-      {comentarios.map((comentario) => {
-        <CardComentario texto={comentario.texto} nombre={comentario.nombre} />;
-      })}
-    </div>
+    <>
+      {comentarios ? (
+        <div>
+          {comentarios.map((comentario, index) => (
+            <CardComentario
+              key={index}
+              texto={comentario.texto}
+              nombre={comentario.nombre}
+            />
+          ))}
+        </div>
+      ) : (
+        <p>Cargando...</p>
+      )}
+    </>
   );
 }
