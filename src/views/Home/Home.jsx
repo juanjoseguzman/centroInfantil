@@ -6,6 +6,7 @@ import "./Home.css"; // Pendiente hacer el hover a los botones
 import { Download } from "../../components/Download/Download";
 import { BotonesHome } from "../../components/BotonesHome/BotonesHome";
 import { Comentarios } from "../../components/Comentarios/Comentarios";
+import { Datos } from "../../components/Datos/Datos";
 
 export function Home() {
   return (
@@ -19,6 +20,7 @@ export function Home() {
       <Caracteristicas />
       <Download />
       <Comentarios />
+      <Datos />
     </>
   );
 }

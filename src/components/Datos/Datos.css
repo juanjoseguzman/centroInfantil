@@ -1,0 +1,36 @@
+.contenedor {
+    position: relative;
+  }
+  
+  .contenedor img {
+    width: auto;
+    height: 100%;
+  }
+  
+  .contenedor .texto {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-30%, -30%);
+   
+  }
+  
+  /* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
+  @media (max-width: 768px) {
+    .contenedor .texto {
+      left: 50%;
+      max-width: 100%;
+      font-size: 1.5vw; /* Tamaño de fuente en vw */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contenedor .texto {
+      top: 50%;
+      left: 50%;
+      max-width: 100%;
+      font-size: 1.5vw; /* Tamaño de fuente en vw */
+  
+      
+    }
+  }

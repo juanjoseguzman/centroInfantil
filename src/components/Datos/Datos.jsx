@@ -1,0 +1,26 @@
+import bg2 from "../../../public/Imagenes/bg-2.jpg";
+import ico4 from "../../../public/Imagenes/ico-4.png";
+
+export function Datos() {
+  return (
+    <div className="mt-5 pt-5">
+      <img className="img-fluid" src={bg2} alt="fondo" />
+      <div className="container">
+        <div className="contenedor">
+          <div className="texto d-flex gap-5">
+            <img className="col-1" src={ico4} />
+          </div>
+          <div>
+            <img className="col-1" src={ico4} />
+          </div>
+          <div>
+            <img className="col-1" src={ico4} />
+          </div>
+          <div>
+            <img className="col-1" src={ico4} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

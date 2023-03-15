@@ -20,7 +20,7 @@
   .contenedor .texto {
     left: 50%;
     max-width: 100%;
-    font-size: 5vw; /* Tamaño de fuente en vw */
+    font-size: 1.5vw; /* Tamaño de fuente en vw */
   }
 }
 
@@ -29,7 +29,7 @@
     top: 70%;
     left: 50%;
     max-width: 100%;
-    font-size: 5vw; /* Tamaño de fuente en vw */
+    font-size: 1.5vw; /* Tamaño de fuente en vw */
 
     
   }

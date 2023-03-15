@@ -22,14 +22,16 @@ export function Comentarios() {
   return (
     <>
       {comentarios ? (
-        <div>
-          {comentarios.map((comentario, index) => (
-            <CardComentario
-              key={index}
-              texto={comentario.texto}
-              nombre={comentario.nombre}
-            />
-          ))}
+        <div className="container mt-4">
+          <div className="d-flex justify-content-evenly">
+            {comentarios.map((comentario, index) => (
+              <CardComentario
+                key={index}
+                texto={comentario.texto}
+                nombre={comentario.nombre}
+              />
+            ))}
+          </div>
         </div>
       ) : (
         <p>Cargando...</p>
