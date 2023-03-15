@@ -7,6 +7,7 @@ import { Download } from "../../components/Download/Download";
 import { BotonesHome } from "../../components/BotonesHome/BotonesHome";
 import { Comentarios } from "../../components/Comentarios/Comentarios";
 import { Datos } from "../../components/Datos/Datos";
+import Docente from "../../components/Docente/Docente";
 
 export function Home() {
   return (
@@ -21,6 +22,7 @@ export function Home() {
       <Download />
       <Comentarios />
       <Datos />
+      <Docente/>
     </>
   );
 }

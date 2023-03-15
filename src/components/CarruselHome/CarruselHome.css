@@ -2,7 +2,7 @@
 position: absolute;
 top: 28%;
 left: 34%;
-color: var(--color-crema);
+color: var(--color-rosa);;
 font-size: 64px;
 font-weight: 600;
 }
@@ -10,7 +10,7 @@ font-weight: 600;
     position: absolute;
     top: 40%;
     left: 40%;
-    color: var(--color-crema);
+    color: var(--color-rosa);;
     font-size: 64px;
     font-weight: 600;
     }
