@@ -9,6 +9,7 @@ import { Datos } from "../../components/Datos/Datos";
 import Docente from "../../components/Docente/Docente";
 import Instalaciones from "../../components/Instalaciones/Instalaciones";
 import { Logo } from "../../components/Logo/Logo";
+import { Footer } from "../../components/Footer/Footer";
 
 export function Home() {
   return (
@@ -23,6 +24,7 @@ export function Home() {
       <Datos />
       <Docente />
       <Instalaciones />
+      <Footer />
     </>
   );
 }
