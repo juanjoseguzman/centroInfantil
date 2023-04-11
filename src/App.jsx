@@ -4,6 +4,7 @@ import Layout from "./components/Layout/Layout";
 import { Home } from "./views/Home/Home";
 import { CovidView } from "./views/CovidView/CovidView";
 import QueOfrecemos from "./views/QueOfrecemos/QueOfrecemos";
+import Matricula from "./views/Matricula/Matricula";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="inicio" element={<Home />} />
           <Route path="ofrecemos" element={<QueOfrecemos />} />
           <Route path="covid" element={<CovidView />} />
+          <Route path="matricula" element={<Matricula />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -15,17 +15,20 @@ export function BotonesHome() {
     <div className="container">
       <div className="d-flex justify-content-center ">
         <div className="botonHomeHover">
-          <BotonHome clase="fondo-azul" texto="Inicio" icono={inicio} direccion="/inicio"/>
+          <BotonHome
+            clase="fondo-azul"
+            texto="Inicio"
+            icono={inicio}
+            direccion="/inicio"
+          />
         </div>
         <div className="">
-        
           <BotonHome
             clase="fondo-verde"
             texto="Qué ofrecemos"
             icono={presentacion}
             direccion="/ofrecemos"
           />
-          
         </div>
         <div className="">
           <BotonHome
@@ -35,14 +38,24 @@ export function BotonesHome() {
           />
         </div>
         <div className="">
-          <BotonHome clase="fondo-crema" texto="Matrícula" icono={matricula} />
+          <BotonHome
+            clase="fondo-crema"
+            texto="Matrícula"
+            icono={matricula}
+            direccion="/matricula"
+          />
         </div>
 
         <div className="">
           <BotonHome clase="fondo-azul" texto="Horarios" icono={horarios} />
         </div>
         <div className="">
-          <BotonHome clase="fondo-verde" texto="Covid-19" icono={covid}  direccion="/covid" />
+          <BotonHome
+            clase="fondo-verde"
+            texto="Covid-19"
+            icono={covid}
+            direccion="/covid"
+          />
         </div>
         <div className="">
           <BotonHome clase="fondo-amarillo" texto="Contacto" icono={contacto} />
