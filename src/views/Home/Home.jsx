@@ -1,4 +1,3 @@
-import { CarruselHome } from "../../components/CarruselHome/CarruselHome";
 import { Descripcion } from "../../components/Descripcion/Descripcion";
 import { Caracteristicas } from "../../components/Caracteristicas/Caracteristicas";
 import "./Home.css"; // Pendiente hacer el hover a los botones
@@ -10,13 +9,15 @@ import Docente from "../../components/Docente/Docente";
 import Instalaciones from "../../components/Instalaciones/Instalaciones";
 import { Logo } from "../../components/Logo/Logo";
 import { Footer } from "../../components/Footer/Footer";
+import { Cabecera } from "../../components/Cabecera/Cabecera";
+import cabecera from "../../../public/Imagenes/cabecera.jpg";
 
 export function Home() {
   return (
     <>
       <Logo />
       <BotonesHome />
-      <CarruselHome />
+      <Cabecera imagen={cabecera} />
       <Descripcion />
       <Caracteristicas />
       <Download />
