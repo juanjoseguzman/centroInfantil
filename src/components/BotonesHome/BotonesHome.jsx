@@ -15,7 +15,7 @@ export function BotonesHome() {
     <div className="container">
       <div className="d-flex justify-content-center ">
         <div className="botonHomeHover">
-          <BotonHome clase="fondo-azul" texto="Inicio" icono={inicio} />
+          <BotonHome clase="fondo-azul" texto="Inicio" icono={inicio} direccion="/inicio"/>
         </div>
         <div className="">
         
@@ -42,7 +42,7 @@ export function BotonesHome() {
           <BotonHome clase="fondo-azul" texto="Horarios" icono={horarios} />
         </div>
         <div className="">
-          <BotonHome clase="fondo-verde" texto="Covid-19" icono={covid} />
+          <BotonHome clase="fondo-verde" texto="Covid-19" icono={covid}  direccion="/covid" />
         </div>
         <div className="">
           <BotonHome clase="fondo-amarillo" texto="Contacto" icono={contacto} />
