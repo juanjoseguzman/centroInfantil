@@ -1,6 +1,6 @@
 import carrusel1 from "../../../public/Imagenes/Covid/cabecera.jpg";
 
-export function Covid() {
+export default function Covid() {
   return (
     <>
       <div className="contenedor position-relative">

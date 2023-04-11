@@ -76,3 +76,22 @@
   width: 10%;
 
 }
+/* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+.texto {
+    left: 50%;
+    max-width: 100%;
+    font-size: 1.5vw; /* Tamaño de fuente en vw */
+  }
+}
+
+@media (max-width: 576px) {
+  .contenedor .texto {
+    top: 50%;
+    left: 50%;
+    max-width: 10%;
+    font-size: 1.5vw; /* Tamaño de fuente en vw */
+      height: 10%;
+
+  }
+}
