@@ -8,6 +8,7 @@ import matricula from "../../../public/Imagenes/menu-4.png";
 import horarios from "../../../public/Imagenes/menu-5.png";
 import covid from "../../../public/Imagenes/menu-6.png";
 import contacto from "../../../public/Imagenes/menu-7.png";
+import { Link } from "react-router-dom";
 
 export function BotonesHome() {
   return (
@@ -17,11 +18,14 @@ export function BotonesHome() {
           <BotonHome clase="fondo-azul" texto="Inicio" icono={inicio} />
         </div>
         <div className="">
+        
           <BotonHome
             clase="fondo-verde"
-            texto="Presentación"
+            texto="Qué ofrecemos"
             icono={presentacion}
+            direccion="/ofrecemos"
           />
+          
         </div>
         <div className="">
           <BotonHome
