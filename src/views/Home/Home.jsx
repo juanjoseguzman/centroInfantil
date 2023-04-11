@@ -15,8 +15,6 @@ import cabecera from "../../../public/Imagenes/cabecera.jpg";
 export function Home() {
   return (
     <>
-      <Logo />
-      <BotonesHome />
       <Cabecera imagen={cabecera} />
       <Descripcion />
       <Caracteristicas />
@@ -25,7 +23,6 @@ export function Home() {
       <Datos />
       <Docente />
       <Instalaciones />
-      <Footer />
     </>
   );
 }
