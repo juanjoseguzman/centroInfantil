@@ -1,103 +1,97 @@
-@import "../../constantes/colores.css";
-
 .contenedor {
-    position: relative;
-    background-color: var(--color-amarillo-claro);
-    min-height: auto;
-  }
-  
+  position: relative;
+}
+
+
+
 .contenedor .texto {
-    position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-30%, -30%);
+ 
+}
+.contenedor .img-container {
+  position: absolute;
+  top: -180px;
+  left: 20%;
+  transform: translate(-30%, -30%);
+  width: 10%;
+ 
+}
+.contenedor .img-container2 {
+  position: absolute;
+  top: -180px;
+  left: 40%;
+  transform: translate(-30%, -30%);
+  width: 10%;
+ 
+}
+.contenedor .img-container3 {
+  position: absolute;
+  top: -180px;
+  left: 60%;
+  transform: translate(-30%, -30%);
+  width: 10%;
+ 
+}
+.contenedor .img-container4 {
+  position: absolute;
+  top: -180px;
+  left: 80%;
+  transform: translate(-30%, -30%);
+  width: 10%;
+ 
+}
+.contenedor .textoIcon {
+  position: absolute;
+  top: -40px;
+  left: 20%;
+  transform: translate(-30%, -30%);
+  width: 10%;
+ 
+}
+.contenedor .textoIcon2 {
+  position: absolute;
+  top: -40px;
+  left: 40%;
+  transform: translate(-30%, -30%);
+  width: 10%;
+ 
+}
+.contenedor .textoIcon3 {
+  position: absolute;
+  display: flex;
+  top: -40px;
+  left: 60%;
+  transform: translate(-30%, -30%);
+  width: 10%;
+ 
+}
+.contenedor .textoIcon4 {
+  position: absolute;
+  top: -40px;
+  left: 80%;
+  transform: translate(-30%, -30%);
+  width: 10%;
+ 
+}
+/* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+.texto {
+    left: 50%;
+    max-width: 100%;
+    font-size: 1.5vw; /* Tamaño de fuente en vw */
+  }
+}
+
+@media (max-width: 576px) {
+  .contenedor .texto {
     top: 50%;
-    left: 60%;
-    transform: translate(-30%, -30%);
-   
+    left: 50%;
+    max-width: 10%;
+    font-size: 1.5vw; /* Tamaño de fuente en vw */
+      height: 10%;
+    
   }
-
-  .img-position1{
-    left: 20%;
-  }
-  .img-position2{
-    left: 40%;
-
-  }
-  .img-position3{
-    left: 60%;
-  }
-  .img-position4{
-    left: 80%;
-  }
-  .backg-amarillo{
-    background-color: var(--color-amarillo-claro);
-    min-height: auto;
-  }
-
-  .contenedor .img-container {
-    position: absolute;
-    top: -150px;
-    transform: translate(-30%, -30%);
-    width: 8%;
-  }
-  .contenedor .textoIcon {
-    position: absolute;
-    top: -40px;
-    transform: translate(-30%, -30%);
-    width: 10%;
-  }
-  .text-position1{
-    left: 20%;
-
-  }
-  .text-position2{
-    left: 40%;
-
-  }
-  .text-position3{
-    left: 60%;
-
-  }
-  .text-position4{
-    left: 80%;
-
-  }
-  .contenedor .textoIcon2 {
-    position: absolute;
-    top: -40px;
-    transform: translate(-30%, -30%);
-    width: 10%;
-   
-  }
-  .contenedor .textoIcon3 {
-    position: absolute;
-    display: flex;
-    top: -40px;
-    transform: translate(-30%, -30%);
-    width: 10%;
-   
-  }
-  .contenedor .textoIcon4 {
-    position: absolute;
-    top: -40px;
-    transform: translate(-30%, -30%);
-    width: 10%;
-   
-  }
-  /* Media queries para ajustar el diseño en diferentes tamaños de pantalla */
-  @media (max-width: 768px) {
- .texto {
-      left: 50%;
-      max-width: 100%;
-      font-size: 1.5vw; /* Tamaño de fuente en vw */
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .contenedor .texto {
-      top: 50%;
-      left: 50%;
-      max-width: 10%;
-      font-size: 1.5vw; /* Tamaño de fuente en vw */
-        height: 10%;
-      
-    }
-  }
+}
