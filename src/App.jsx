@@ -18,6 +18,7 @@ function App() {
           <Route path="covid" element={<CovidView />} />
           <Route path="matricula" element={<Matricula />} />
           <Route path="actividades" element={<ActividadesView />} />
+          {/* fdjkljasdkljdjf */}
         </Route>
       </Routes>
     </BrowserRouter>
