@@ -35,6 +35,7 @@ export function BotonesHome() {
             clase="fondo-amarillo"
             texto="Actividades"
             icono={actividades}
+            direccion="/actividades"
           />
         </div>
         <div className="">
@@ -58,7 +59,12 @@ export function BotonesHome() {
           />
         </div>
         <div className="">
-          <BotonHome clase="fondo-amarillo" texto="Contacto" icono={contacto} />
+          <BotonHome
+            clase="fondo-amarillo"
+            texto="Contacto"
+            icono={contacto}
+            direccion="/contacto"
+          />
         </div>
       </div>
     </div>
